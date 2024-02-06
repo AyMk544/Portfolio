@@ -40,4 +40,42 @@
     .services-container{
         padding: 4.8rem;
     }
+    nav{
+        padding: 1.2rem;
+        /* justify-content: spa; */
+    }
+    .nav-elements{
+        gap: 0.8rem;
+        font-size: 1.6rem;
+    }
+    .hobbies-container{
+        padding: 0rem;
+    }
+    .chill{
+        margin-top: 6.4rem;
+        margin-bottom: 3.2rem;
+        margin-left: 0;
+    }
+    .footer-container{
+        grid-template-columns: repeat(3, 1fr);
+    }
+    .footer{
+        padding-left: 0;
+        padding-right: 0;
+    }
+    .contact-icons{
+       gap: 2.4rem;
+    }
+    .contact-div{
+        grid-column: 1/-1;
+        text-align: center;
+        justify-self: center;
+    }
+    .contact-icons svg{
+        width: 3.2rem;
+        height: 3.2rem;
+    }
+    .footer-heading{
+        margin-bottom: 1.6rem;
+    }
 }
