@@ -1,0 +1,43 @@
+@media (max-width: 75em) {
+    html{
+        font-size: 56.25%;
+    }
+}
+
+@media (max-width: 38em) {
+    html{
+        font-size: 50%;
+    }
+    .hero-container{
+        grid-template-columns: 1fr;
+    }
+    .img-div{
+        grid-row: 1/2;
+    }
+    .info{
+        padding-left: 0;
+    }
+    .info div{
+        text-align: center;
+    }
+    .about-more-container{
+        grid-template-columns: 1fr;
+        row-gap: 4.8rem;
+    }
+    .about-more-section{
+        padding-bottom: 3.6rem;
+    }
+    .services-grid{
+        grid-template-columns: 1fr;
+        row-gap: 12rem;
+    }
+    .s-img-2{
+        grid-row: 4/5;
+    }
+    .service-img-div {
+        margin-top: -8rem;
+    }
+    .services-container{
+        padding: 4.8rem;
+    }
+}
