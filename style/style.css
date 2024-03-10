@@ -367,3 +367,7 @@ nav{
     font-size: 1.6rem;
     text-align: center;
 }
+.projects{
+    text-decoration: none;
+    color: #eee;
+}
